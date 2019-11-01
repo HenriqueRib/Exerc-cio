@@ -1,0 +1,33 @@
+{
+    "name": "henrique-moreira/projeto6",
+    "authors": [
+        {
+            "name": "HenriqueRib",
+            "email": "ribeiro.henriquem@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "^3.2",
+        "symfony/css-selector": "^3.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "forseti/logger": "^1.3",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.6.*"
+    },
+    "keywords": [
+        "bot",
+        "Registro"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Forseti\\Bot\\Registro\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Forseti\\Bot\\SpaceJam\\Test\\": "tests/"
+        }
+    }
+}
